@@ -437,8 +437,6 @@ code {
 </li>
 </ul>
 <h2 id="technical-overview">Technical Overview</h2>
-<details>
-    <summary>Detailed Technical Notes</summary>
 <pre><code class="language-mermaid"><div class="mermaid">graph TD  
     subgraph Categorization 
     D_Docs[(Documents)] --> P_Cat([Categorize])
@@ -457,6 +455,8 @@ code {
     D_Docs & D_Cat_Docs & D_Index --> P_Search
     end
 </div></code></pre>
+<details>
+    <summary>Detailed Technical Notes</summary>
 <p>အထက် ဖော်ပြပါ ပုံတွင် TTBTT ၏ အဓိက နယ်ပယ် ၃ ရပ်ကို တွေ့မြင်နိုင်သည်။ ၄င်းတို့မှာ</p>
 <ul>
 <li>Categorization</li>
@@ -496,8 +496,6 @@ code {
 </li>
 <li>PDF ဖိုင်အကုန် ဖွင့်ကြည့်ပြီး စာရင်းသွင်းပြီးပါက TTBTT ၏ Facebook Page ကို ပြန်လည် ဆက်သွယ်ပြီး CSV File ကို ပေးပို့ပေးပါ။</li>
 </ol>
-<details>
-    <summary>အသေးစိတ် ရှင်းပြချက်များ</summary>
 <p><strong>What if ...</strong></p>
 <p>Excel မရှိရင် ဘယ်လို လုပ်ရမလဲ။</p>
 <blockquote>
@@ -533,7 +531,6 @@ code {
 <p>Artificial Intelligence နည်းပညာဖြင့် ကွန်ပျူတာကို အလိုအလျောက် ခွဲခြားနိုင်ရန် သင်ကြား (train) ပေးလို့တော့ ရနိုင်ပါသည်။ ထိုသို့ သင်ကြားပေး၍ ရလာသော အသိဉာဏ် (Model) ကို အသုံးပြုကာ ကွန်ပျူတာက အလိုအလျောက် အမျိုးအမည်ခွဲ (Predict) နိုင်ပါသည်။</p>
 <p>ဤကဲ့သို့ သင်ကြားနိုင်ရန်အတွက် 5% မျှသော ဖိုင်များကို လူက ကွန်ပျူတာကို အမျိုးအစား ခွဲခြားပြပေးရမည် ဖြစ်ပါသည်။ ယခု သင်လုပ်အားပေးမည့် Labelling Process သည် လူက ကွန်ပျူတာကို အမျိုးအစားခွဲခြား ပြပေးသည့် Process ဖြစ်ပါသည်။ ၄င်းကို တဦးတယောက်တည်းက လုပ်ဆောင်ရန် မဖြစ်နိုင်သည့်အတွက် Volunteer များကို TTBTT Project က ရှာဖွေနေခြင်း ဖြစ်ပါသည်။</p>
 <p>5% သော ဖိုင်များကို Labelling (အမျိုးအမည် ခွဲပြပေးပြီးလျှင်) ပုံတွင် ပြထားသည့်အတိုင်း ကွန်ပျူတာက ထို Model ကို အသုံးပြုကာ ကျန် 95% သော ဖိုင်များကို အလိုအလျောက် အမျိုးအစား ခွဲခြားနိုင်မည် ဖြစ်သည်။</p>
-</details>
 <h2 id="faqs">FAQs</h2>
 <h3 id="ttbtt-%E1%80%80%E1%80%AD%E1%80%AF-%E1%80%98%E1%80%9A%E1%80%BA%E1%80%9E%E1%80%B0%E1%80%90%E1%80%BD%E1%80%B1-%E1%80%90%E1%80%8A%E1%80%BA%E1%80%86%E1%80%B1%E1%80%AC%E1%80%80%E1%80%BA%E1%80%94%E1%80%B1%E1%80%80%E1%80%BC%E1%80%90%E1%80%AC%E1%80%9C%E1%80%B2%E1%81%8B">TTBTT ကို ဘယ်သူတွေ တည်ဆောက်နေကြတာလဲ။</h3>
 <blockquote>
@@ -541,7 +538,7 @@ code {
 </blockquote>
 <h3 id="ttbtt-%E1%80%80%E1%80%AD%E1%80%AF-%E1%80%9C%E1%80%BE%E1%80%B0%E1%80%9C%E1%80%AD%E1%80%AF%E1%80%B7-%E1%80%9B%E1%80%9E%E1%80%9C%E1%80%AC%E1%80%B8">TTBTT ကို လှူလို့ ရသလား</h3>
 <blockquote>
-<p>TTBTT ၏ အဓိက Compute Resource များကို Google Cloud Platform မှ ဝယ်ယူအသုံးပြုပြီး လောလောဆယ်မှာ တလကို AUD 300 နှုန်းအထိ ထောက်ပံ့ထားသည့် အလှူရှင် ရှိပြီးဖြစ်သည်။ Project ၏ ရည်မှန်းချက်များကို အထမြောက်ရန် ၄င်း ပမာဏထက် ပို၍ လိုမည်ဟု မထင်ပါ။ Electricity နှင့် Client Resource များကို Volunteer Contributor များက BYOD (Bring Your Own Device) စနစ်နှင့် ပါဝင် အားဖြည့်ကြပါသည်။</p>
+<p>TTBTT ၏ အဓိက Compute Resource များကို Google Cloud Platform မှ ဝယ်ယူအသုံးပြုပြီး Project ၏ ရည်မှန်းချက်များကို အထမြောက်ရန် ထောက်ပံ့ထားသည့် အလှူရှင် ရှိပြီးဖြစ်သည်။  Electricity နှင့် Client Resource များကို Volunteer Contributor များက BYOD (Bring Your Own Device) စနစ်နှင့် ပါဝင် အားဖြည့်ကြပါသည်။</p>
 <p>သို့ဖြစ်၍ TTBTT က အလှူမခံပါ။ ထို့ကြောင့် လှူလို့ မရပါ။</p>
 </blockquote>
 <h3 id="%E1%80%92%E1%80%AB%E1%80%95%E1%80%B1%E1%80%99%E1%80%B2%E1%80%B7-%E1%80%90%E1%80%90%E1%80%95%E1%80%BA%E1%80%90%E1%80%A1%E1%80%AC%E1%80%B8-%E1%80%95%E1%80%AB%E1%80%9D%E1%80%84%E1%80%BA-%E1%80%A1%E1%80%AC%E1%80%B8%E1%80%96%E1%80%BC%E1%80%8A%E1%80%B7%E1%80%BA%E1%80%81%E1%80%BB%E1%80%84%E1%80%BA%E1%80%95%E1%80%AB%E1%80%90%E1%80%9A%E1%80%BA%E1%81%8B-%E1%80%98%E1%80%9A%E1%80%BA-%E1%80%9C%E1%80%AF%E1%80%95%E1%80%BA%E1%80%95%E1%80%B1%E1%80%B8%E1%80%9B%E1%80%99%E1%80%9C%E1%80%B2%E1%81%8B">ဒါပေမဲ့ တတပ်တအား ပါဝင် အားဖြည့်ချင်ပါတယ်။ ဘယ် လုပ်ပေးရမလဲ။</h3>

@@ -70,9 +70,6 @@ The Truth Behind The Truth (TTBTT) ၏ ရည်မှန်းချက်မ�
 
 ## Technical Overview
 
-<details>
-    <summary>Detailed Technical Notes</summary>
-
 ```mermaid
 graph TD  
     subgraph Categorization 
@@ -92,6 +89,10 @@ graph TD
     D_Docs & D_Cat_Docs & D_Index --> P_Search
     end
 ```
+
+
+<details>
+    <summary>Detailed Technical Notes</summary>
 
 အထက် ဖော်ပြပါ ပုံတွင် TTBTT ၏ အဓိက နယ်ပယ် ၃ ရပ်ကို တွေ့မြင်နိုင်သည်။ ၄င်းတို့မှာ 
 
@@ -132,9 +133,6 @@ graph TD
    * ဖိုင်အတွင်း မြန်မာဘာသာရော၊ အင်္ဂလိပ်ဘာသာပါ (ပုံနှိပ်/လက်နှိပ်စက်/လက်ရေး) စာသားများ ပါပါက myanmar နှင့် english column များမှာ အင်္ဂလိပ် ဂဏန်း 1 လို့ ရိုက်ထည့်ပါ။
    * remark column မှာ ကိုယ်ရေးချင်တာကိုယ် မြန်မာ ယူနီကုဒ်ဖြင့် ဖြစ်စေ၊ အင်္ဂလိပ်လိုဖြစ်စေ ရေးထည့်ပေးပါ (မရေးလဲ ရပါသည်)
 4. PDF ဖိုင်အကုန် ဖွင့်ကြည့်ပြီး စာရင်းသွင်းပြီးပါက TTBTT ၏ Facebook Page ကို ပြန်လည် ဆက်သွယ်ပြီး CSV File ကို ပေးပို့ပေးပါ။ 
-
-<details>
-    <summary>အသေးစိတ် ရှင်းပြချက်များ</summary>
 
 **What if ...** 
 
@@ -179,8 +177,6 @@ Artificial Intelligence နည်းပညာဖြင့် ကွန်ပျ�
 
 5% သော ဖိုင်များကို Labelling (အမျိုးအမည် ခွဲပြပေးပြီးလျှင်) ပုံတွင် ပြထားသည့်အတိုင်း ကွန်ပျူတာက ထို Model ကို အသုံးပြုကာ ကျန် 95% သော ဖိုင်များကို အလိုအလျောက် အမျိုးအစား ခွဲခြားနိုင်မည် ဖြစ်သည်။
 
-</details>
-
 ## FAQs
 
 ### TTBTT ကို ဘယ်သူတွေ တည်ဆောက်နေကြတာလဲ။ 
@@ -189,7 +185,7 @@ Artificial Intelligence နည်းပညာဖြင့် ကွန်ပျ�
 
 ### TTBTT ကို လှူလို့ ရသလား
 
-> TTBTT ၏ အဓိက Compute Resource များကို Google Cloud Platform မှ ဝယ်ယူအသုံးပြုပြီး လောလောဆယ်မှာ တလကို AUD 300 နှုန်းအထိ ထောက်ပံ့ထားသည့် အလှူရှင် ရှိပြီးဖြစ်သည်။ Project ၏ ရည်မှန်းချက်များကို အထမြောက်ရန် ၄င်း ပမာဏထက် ပို၍ လိုမည်ဟု မထင်ပါ။ Electricity နှင့် Client Resource များကို Volunteer Contributor များက BYOD (Bring Your Own Device) စနစ်နှင့် ပါဝင် အားဖြည့်ကြပါသည်။ 
+> TTBTT ၏ အဓိက Compute Resource များကို Google Cloud Platform မှ ဝယ်ယူအသုံးပြုပြီး Project ၏ ရည်မှန်းချက်များကို အထမြောက်ရန် ထောက်ပံ့ထားသည့် အလှူရှင် ရှိပြီးဖြစ်သည်။  Electricity နှင့် Client Resource များကို Volunteer Contributor များက BYOD (Bring Your Own Device) စနစ်နှင့် ပါဝင် အားဖြည့်ကြပါသည်။ 
 > 
 > သို့ဖြစ်၍ TTBTT က အလှူမခံပါ။ ထို့ကြောင့် လှူလို့ မရပါ။
 
