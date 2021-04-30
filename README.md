@@ -1,36 +1,9 @@
 # The Truth Behind The Truth (TTBTT)
 
-## TL;DR
-
-> TL;DR stands for Too Long; Don't Read. မြန်မာလို အနှစ်ချုပ် (သံခိပ်) ဟု ဘာသာပြန်နိုင်သည်။
-
 The Truth Behind The Truth is a Document Processing System that aims to rebuild index and structure behind a bucket of document scan images (mostly in Myanmar).
 
 The Truth Behind The Truth သည် မြန်မာ ဘာသာနှင့် ရေးသားထားသည့် စနစ်တကျ မာတိကာ/စာရင်းသွင်းထားခြင်း မရှိသည့် စာရွက်စာတမ်းများ၏ Scanned Image သို့မဟုတ် Photo Image များကို မာတိကာ/စာရင်း အလိုအလျောက် သွင်းနိုင်အောင် တွက်ချက်ပေးနိုင်သည့် Document Processing System 
 တခု ဖြစ်သည်။
-
-```mermaid
-graph TD  
-    subgraph categorize
-    D_Docs[(Documents)] --> P_Cat([Categorize])
-    P_Cat --> D_Cat_Docs[(Categorized Documents)]
-    end
-    subgraph convert to text
-    D_Cat_Docs --> P_OCR([Optical Character Recognizer])
-    P_OCR --> D_Text[Categorized Documents in Text]
-    end
-    subgraph indexing
-    D_Text --> P_Indexer([Indexer])
-    D_Cat_Docs --> P_Indexer
-    P_Indexer --> D_Index[(Index)]
-    end
-    subgraph analysis and search
-    E_User>User] ==>|Query| P_Search([Search Engine])
-    P_Search ==>|Results| E_User
-    D_Docs & D_Cat_Docs & D_Index --> P_Search
-    end
-    
-```
 
 ## Background
 
@@ -95,8 +68,45 @@ The Truth Behind The Truth (TTBTT) ၏ ရည်မှန်းချက်မ�
   
 * **Steamlining of the above Processes for Future Leaks** အနာဂတ်မှ Leak အသစ်များအတွက် အထက်ပါ လုပ်ငန်းစဉ်များကို အလိုအလျောက်နီးပါး လျင်မြန်စွာ လုပ်ဆောင်နိုင်မည့် Computer Program, System နှင့် Process များကို တည်ဆောက်ရန်
 
+## Technical Overview
+
+<details>
+    <summary>Detailed Technical Notes</summary>
+
+```mermaid
+graph TD  
+    subgraph Categorization 
+    D_Docs[(Documents)] --> P_Cat([Categorize])
+    P_Cat --> D_Cat_Docs[(Categorized Documents)]
+    end
+    subgraph Optical Character Recognization 
+    D_Cat_Docs --> P_OCR([Optical Character Recognizer])
+    P_OCR --> D_Text[Categorized Documents in Text]
+    end
+    subgraph Indexing and Search Engine
+    D_Text --> P_Indexer([Indexer])
+    D_Cat_Docs --> P_Indexer
+    P_Indexer --> D_Index[(Index)]
+    E_User>User] ==>|Query| P_Search([Search Engine])
+    P_Search ==>|Results| E_User
+    D_Docs & D_Cat_Docs & D_Index --> P_Search
+    end
+```
+
+အထက် ဖော်ပြပါ ပုံတွင် TTBTT ၏ အဓိက နယ်ပယ် ၃ ရပ်ကို တွေ့မြင်နိုင်သည်။ ၄င်းတို့မှာ 
+
+* Categorization
+* Optical Character Recognization နှင့် 
+* Indexing and Search Engine တို့ ဖြစ်ကြသည်။ 
+
+ထို့အပြင် TTBTT ၏ အခြား အရေးပါသော နယ်ပယ်တခုမှာ အထက်ပါ နယ်ပယ် ၃ ခုကို Dataset အသစ်တခုအတွက် လျင်မြန်စွာ လုပ်ဆောင်ပေးနိုင်ရန်လဲ ဖြစ်သည်။
+
+</details>
+
 ## Task Lists
 
+<details>
+    <summary>Detailed Task List</summary>
 1. DDoSecrets မှ Myanmar Financials Leak ကို Singapore Bucket သို့ Upload ရန် -- Done
 2. DDoSecrets မှ Myanmar Financials Leak ကို Sydney Bucket သို့ Upload ရန် -- Done
 3. DDoSecrets မှ Myanmar Investment Leak ကို Sydney Bucket သို့ Upload ရန် -- WIP
@@ -104,8 +114,9 @@ The Truth Behind The Truth (TTBTT) ၏ ရည်မှန်းချက်မ�
 5. Myanmar Financials Leak ၏ 5% ကို Multi-Region Bucket သို့ Sample ယူရန် -- WIP
 6. Myanmar Financials Leak ၏ Sample များကို Label လုပ်ရန် Process ပြင်ဆင်ရန် -- WIP
 7. Myanmar Financials Leak ၏ Sample များကို Crowd Source နည်းနှင့် Label လုပ်ရန် -- Pending Sampling (5) and Labelling Process (6) 
+</details>
 
-### Myanmar Financials Leak ၏ Sample များကို Label လုပ်ရန် (#task_1)
+### Myanmar Financials Leak ၏ Sample များကို Label လုပ်ရန် 
 
 1. TTBTT ၏ Facebook Page မှာ Message ထားခဲ့ပါ။ Admin တယောက်ယောက်က ဆက်သွယ်ပါလိမ့်မယ်။ 
 2. ပေးလာတဲ့ Google Drive Link ကို ဖွင့်ကြည့်ပါ။ PDF ဖိုင်များနဲ့ CSV (Excel) ဖိုင်တခုကို တွေ့ရပါလိမ့်မယ်။ PDF ဖိုင်တွေရဲ့ အမည်ကို CSV ဖိုင်ထဲက ပထမ Column (filepath) မှာ တွေ့ရပါလိမ့်မယ်။ တခြား Column တွေက nric, family_list, photo, passport, constitution, contract, document, myanmar, english, remark
@@ -122,7 +133,10 @@ The Truth Behind The Truth (TTBTT) ၏ ရည်မှန်းချက်မ�
    * remark column မှာ ကိုယ်ရေးချင်တာကိုယ် မြန်မာ ယူနီကုဒ်ဖြင့် ဖြစ်စေ၊ အင်္ဂလိပ်လိုဖြစ်စေ ရေးထည့်ပေးပါ (မရေးလဲ ရပါသည်)
 4. PDF ဖိုင်အကုန် ဖွင့်ကြည့်ပြီး စာရင်းသွင်းပြီးပါက TTBTT ၏ Facebook Page ကို ပြန်လည် ဆက်သွယ်ပြီး CSV File ကို ပေးပို့ပေးပါ။ 
 
-#### What if ... 
+<details>
+    <summary>အသေးစိတ် ရှင်းပြချက်များ</summary>
+
+**What if ...** 
 
 Excel မရှိရင် ဘယ်လို လုပ်ရမလဲ။ 
 
@@ -132,7 +146,7 @@ Computer (Desktop/Laptop) မရှိရင် ဘယ်လို လုပ်�
 
 > Tablet (iPad or Android) နဲ့ လုပ်လို့ ရပါတယ်။ Excel မရှိရင် အပေါ်မှာ ပြောထားသလို Google Sheet နဲ့ ဖွင့်ပါ။ 
 
-#### What am I doing ? 
+**What am I doing ?**
 
 ```mermaid
 graph TB
@@ -165,6 +179,8 @@ Artificial Intelligence နည်းပညာဖြင့် ကွန်ပျ�
 
 5% သော ဖိုင်များကို Labelling (အမျိုးအမည် ခွဲပြပေးပြီးလျှင်) ပုံတွင် ပြထားသည့်အတိုင်း ကွန်ပျူတာက ထို Model ကို အသုံးပြုကာ ကျန် 95% သော ဖိုင်များကို အလိုအလျောက် အမျိုးအစား ခွဲခြားနိုင်မည် ဖြစ်သည်။
 
+</details>
+
 ## FAQs
 
 ### TTBTT ကို ဘယ်သူတွေ တည်ဆောက်နေကြတာလဲ။ 
@@ -181,4 +197,4 @@ Artificial Intelligence နည်းပညာဖြင့် ကွန်ပျ�
 
 > TTBTT မှ Categorization of Documents အဆင့်တွင် Computer ကို အမျိုးအမည် ခွဲခြားတတ်အောင် Artificial Intelligence (AI) နည်းပညာများနှင့် သင်ကြားပေးရန် နမူနာ အမျိုးအမည်ခွဲခြားထားသည့် ဖိုင်များ လိုအပ်လျှက်ရှိသည်။ ထို့ကြောင့် မြန်မာစာ ဖတ်တတ်သူ မည်သူမဆို TTBTT ၏ Facebook Page သို့ ဆက်သွယ်၍ ဖိုင် အနည်းငယ်ကို manual label လုပ်ပေးနိုင်ပါသည်။
 
-> အသေးစိတ်ကို [Myanmar Financials Leak ၏ Sample များကို Label လုပ်ရန်](#task_1) မှာ ကြည့်ပါ။
+> အသေးစိတ်ကို [Myanmar Financials Leak ၏ Sample များကို Label လုပ်ရန်](#-Myanmar-Financials-Leak-၏-Sample-များကို-Label-လုပ်ရန် ) မှာ ကြည့်ပါ။
