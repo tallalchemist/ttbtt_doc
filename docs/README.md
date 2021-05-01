@@ -1,7 +1,5 @@
 # The Truth Behind The Truth (TTBTT)
 
-The Truth Behind The Truth is a Document Processing System that aims to rebuild index and structure behind a bucket of document scan images (mostly in Myanmar).
-
 The Truth Behind The Truth သည် မြန်မာ ဘာသာနှင့် ရေးသားထားသည့် စနစ်တကျ မာတိကာ/စာရင်းသွင်းထားခြင်း မရှိသည့် စာရွက်စာတမ်းများ၏ Scanned Image သို့မဟုတ် Photo Image များကို မာတိကာ/စာရင်း အလိုအလျောက် သွင်းနိုင်အောင် တွက်ချက်ပေးနိုင်သည့် Document Processing System 
 တခု ဖြစ်သည်။
 
