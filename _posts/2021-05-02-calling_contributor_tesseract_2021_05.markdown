@@ -9,7 +9,7 @@ categories: jekyll update
 
 TTBTT Project သည် [Distributed Denial of Secrets](https://ddosecrets.com/wiki/Distributed_Denial_of_Secrets) က Leak တခုဖြစ်သည့် [Myanmar Financials](https://ddosecrets.com/wiki/Myanmar_Financials) မှ image/non-text format ဖိုင် ၂ သိန်း ၄ သောင်းကျော် (၂၄၀,၀၀၀ ကျော်) ကို Myanmar/English text format သို့ ပြောင်းလဲရန် ကြိုးပမ်းနေပါသည်။ ထို့အတွက် Software System Prototype တခု တည်ဆောက်ရန်အတွက် Contributor များ လိုအပ်သဖြင့် ခေါ်ယူရခြင်း ဖြစ်ပါသည်။
 
-## Why ? 
+# Why ? 
 
 Image/non-text file များမှာ အရွယ်အစား ကြီးမားသည့်အပြင် ရှာဖွေ၍လဲ မရနိုင်ပါ။ text ဖိုင်များကို Computer က ဖတ်ရှုနိုင်ပြီး ဖိုင်ထဲမှာ ပါရှိသော သတင်းအချက်အလက်များကို အလျင်အမြန် ရှာဖွေနိုင်စေပါသည်။ DDoSecrets ၏ ပထမ Leak ဖြစ်သည့် [Myanmar Investments](https://ddosecrets.com/wiki/Myanmar_Investments) မှ အချက်အလက်များကို [Justice for Myanmar](https://www.justiceformyanmar.org/) က အသေးစိတ် လေ့လာပြီး ကုမ္ပဏီ ၂၆ ခုကို စစ်တပ်နှင့် ဆက်နွယ်နေသော အဖွဲ့အစည်းများအဖြစ် စာရင်းပြုစု အစီရင်ခံနိုင်ခဲ့သလိုပင် ယခု ပို၍ကြီးမားသော Leak ကိုလဲ အသေးစိတ် လေ့လာနိုင်ရန် ပမာဏ အဆင့်အနေနှင့် OCR လုပ်ရန် လိုအပ်နေခြင်း ဖြစ်ပါသည်။
 
@@ -37,7 +37,7 @@ TTBTT Project အနေနှင့် randomly ရွေးချယ်ထာ�
 ## Exactly How to Contribute ?
 
 1. [The Truth Behind The Truth Facebook Page](https://www.facebook.com/Truth-Behind-the-Truth-101121208810900) မှာ ဆက်သွယ်ပါ။ 
-2. Admin က initial assessment လုပ်ပြီး Data File များ၊ Github Repo read/write access နှင့် Linux Box တခု ကို Provide လုပ်ပေးပါလိမ့်မယ်။ 
+2. Admin က ပြန်ဆက်သွယ်ပြီး Data File များ၊ Github Repo read/write access နှင့် Linux Box တခု ကို Provide လုပ်ပေးပါလိမ့်မယ်။ 
 
 # FAQs
 

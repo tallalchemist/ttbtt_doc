@@ -9,7 +9,7 @@ categories: jekyll update
 
 TTBTT Project သည် [Distributed Denial of Secrets](https://ddosecrets.com/wiki/Distributed_Denial_of_Secrets) က Leak တခုဖြစ်သည့် [Myanmar Financials](https://ddosecrets.com/wiki/Myanmar_Financials) မှ မာတိကာ/စာရင်း ရေးသွင်းထားခြင်း မရှိသဖြင့် စနစ်တကျ စစ်ဆေးနိုင်ရန် ခက်ခဲနေသည့် ဖိုင် ၂ သိန်း ၄ သောင်းကျော် (၂၄၀,၀၀၀ ကျော်) ကို မာတိကာ/စာရင်း တည်‌ဆောက် ရေးသွင်းရန် ကြိုးပမ်းနေပါသည်။ ထိုလုပ်ငန်းစဉ်အတွက် လုပ်အားပေး (Volunteer) များ လိုအပ်သဖြင့် ခေါ်ယူရခြင်း ဖြစ်ပါသည်။
 
-## Why ? 
+# Why ? 
 
 မာတိကာ/စာရင်း ရေးသွင်းထားသော ဖိုင်များကို Computer က ဖတ်ရှုနိုင်ပြီး ဖိုင်ထဲမှာ ပါရှိသော သတင်းအချက်အလက်များကို အလျင်အမြန် ရှာဖွေနိုင်စေပါသည်။ DDoSecrets ၏ ပထမ Leak ဖြစ်သည့် [Myanmar Investments](https://ddosecrets.com/wiki/Myanmar_Investments) မှ အချက်အလက်များကို [Justice for Myanmar](https://www.justiceformyanmar.org/) က အသေးစိတ် လေ့လာပြီး ကုမ္ပဏီ ၂၆ ခုကို စစ်တပ်နှင့် ဆက်နွယ်နေသော အဖွဲ့အစည်းများအဖြစ် စာရင်းပြုစု အစီရင်ခံနိုင်ခဲ့သလိုပင် ယခု ပို၍ကြီးမားသော Leak ကိုလဲ အသေးစိတ် လေ့လာနိုင်ရန် ပထမအဆင့်အနေနှင့် မာတိကာ/စာရင်းသွင်းရန် လိုအပ်ခြင်း ဖြစ်ပါသည်။
 
