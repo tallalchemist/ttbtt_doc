@@ -18,7 +18,7 @@ email: tallalchemist001@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The Truth Behind The Truth is a Document Processing System that aims to rebuild index and 
   structure behind a bucket of document scan images (mostly in Myanmar).
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/ttbtt_doc/" # the subpath of your site, e.g. /blog
 url: "https://tallalchemist.github.io/ttbtt_doc" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: TBC
 github_username:  tallalchemist
