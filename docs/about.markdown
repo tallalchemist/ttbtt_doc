@@ -203,6 +203,4 @@ Artificial Intelligence နည်းပညာဖြင့် ကွန်ပျ�
 
 > အသေးစိတ်ကို [Myanmar Financials Leak ၏ Sample များကို Label လုပ်ရန်](#-Myanmar-Financials-Leak-၏-Sample-များကို-Label-လုပ်ရန် ) မှာ ကြည့်ပါ။
 
-{% raw %}
-<script src="{{ "assets/mermaid-8.9.2/mermaid.min.js" | relative_url }}"></script>
-{% endraw %}
+<script src="{{ "/docs/assets/mermaid-8.9.2/mermaid.min.js" | relative_url }}"></script>
