@@ -1,4 +1,4 @@
-# The Truth Behind The Truth (TTBTT)
+# The Truth Behind The Truth (TTBTT) -- README
 
 The Truth Behind The Truth is a Document Processing System that aims to rebuild index and structure behind a bucket of document scan images (mostly in Myanmar).
 
