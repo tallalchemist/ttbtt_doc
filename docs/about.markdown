@@ -75,8 +75,7 @@ The Truth Behind The Truth (TTBTT) ၏ ရည်မှန်းချက်မ�
 
 # Technical Overview
 
-{% raw %}
-<div class="mermaid">
+```mermaid
 graph TD 
     subgraph Categorization 
     D_Docs[(Documents)] --> P_Cat([Categorize])
@@ -94,8 +93,7 @@ graph TD
     P_Search ==>|Results| E_User
     D_Docs & D_Cat_Docs & D_Index --> P_Search
     end
-</div>
-{% endraw %}
+```
 
 <details>
     <summary>Detailed Technical Notes</summary>
