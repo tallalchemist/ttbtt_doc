@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-02T04:59:35+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Truth Behind The Truth (TTBTT)</title><subtitle>The Truth Behind The Truth is a Document Processing System that aims to rebuild index and  structure behind a bucket of document scan images (mostly in Myanmar).</subtitle><entry><title type="html">Optical Character Recognition Prototype အတွက် Contributor များ ခေါ်ယူခြင်း</title><link href="http://localhost:4000/jekyll/update/2021/05/02/calling_contributor_tesseract_2021_05.html" rel="alternate" type="text/html" title="Optical Character Recognition Prototype အတွက် Contributor များ ခေါ်ယူခြင်း" /><published>2021-05-02T02:40:30+00:00</published><updated>2021-05-02T02:40:30+00:00</updated><id>http://localhost:4000/jekyll/update/2021/05/02/calling_contributor_tesseract_2021_05</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2021/05/02/calling_contributor_tesseract_2021_05.html">&lt;h1 id=&quot;what-&quot;&gt;What ?&lt;/h1&gt;
+
+&lt;p&gt;TTBTT Project သည် &lt;a href=&quot;https://ddosecrets.com/wiki/Distributed_Denial_of_Secrets&quot;&gt;Distributed Denial of Secrets&lt;/a&gt; က Leak တခုဖြစ်သည့် &lt;a href=&quot;https://ddosecrets.com/wiki/Myanmar_Financials&quot;&gt;Myanmar Financials&lt;/a&gt; မှ image/non-text format ဖိုင် ၂ သိန်း ၄ သောင်းကျော် (၂၄၀,၀၀၀ ကျော်) ကို Myanmar/English text format သို့ ပြောင်းလဲရန် ကြိုးပမ်းနေပါသည်။ ထို့အတွက် Software System Prototype တခု တည်ဆောက်ရန်အတွက် Contributor များ လိုအပ်သဖြင့် ခေါ်ယူရခြင်း ဖြစ်ပါသည်။&lt;/p&gt;
+
+&lt;h2 id=&quot;why-&quot;&gt;Why ?&lt;/h2&gt;
+
+&lt;p&gt;Image/non-text file များမှာ အရွယ်အစား ကြီးမားသည့်အပြင် ရှာဖွေ၍လဲ မရနိုင်ပါ။ text ဖိုင်များကို Computer က ဖတ်ရှုနိုင်ပြီး ဖိုင်ထဲမှာ ပါရှိသော သတင်းအချက်အလက်များကို အလျင်အမြန် ရှာဖွေနိုင်စေပါသည်။ DDoSecrets ၏ ပထမ Leak ဖြစ်သည့် &lt;a href=&quot;https://ddosecrets.com/wiki/Myanmar_Investments&quot;&gt;Myanmar Investments&lt;/a&gt; မှ အချက်အလက်များကို &lt;a href=&quot;https://www.justiceformyanmar.org/&quot;&gt;Justice for Myanmar&lt;/a&gt; က အသေးစိတ် လေ့လာပြီး ကုမ္ပဏီ ၂၆ ခုကို စစ်တပ်နှင့် ဆက်နွယ်နေသော အဖွဲ့အစည်းများအဖြစ် စာရင်းပြုစု အစီရင်ခံနိုင်ခဲ့သလိုပင် ယခု ပို၍ကြီးမားသော Leak ကိုလဲ အသေးစိတ် လေ့လာနိုင်ရန် ပမာဏ အဆင့်အနေနှင့် OCR လုပ်ရန် လိုအပ်နေခြင်း ဖြစ်ပါသည်။&lt;/p&gt;
+
+&lt;p&gt;ထို့အပြင် မြန်မာဘာသာ (ပုံနှိပ်/လက်ရေး) တို့အတွက် OCR system (or optimized OCR configuration) ကောင်းကောင်းတခု မရှိသေးပါ။ ထို့ကြောင့် commercial/open-source OCR system များကို တိုက်ရိုက် အသုံးမပြုနိုင်ပဲ prototype လုပ်ရန် လိုအပ်နေခြင်း ဖြစ်ပါသည်။&lt;/p&gt;
+
+&lt;p&gt;TTBTT Project ၏ ယခု အဆင့် ပြီးဆုံးလျှင် အောက်ပါ အကျိုးရလာဒ်များကို ရရှိနိုင်ပါသည်။&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Myanmar Financials Leak မှ ဖိုင် ၂၄၀,၀၀၀ ကျော်ကို အကြမ်းအားဖြင့် Text format သို့ ပြောင်းလဲ နိုင်ခြင်း (accuracy ~ 60%)&lt;/li&gt;
+  &lt;li&gt;နောင် အလားတူ Leak များမှ ဖိုင်များကို အလိုအလျောက် OCR ပြုလုပ်နိုင်သော ကွန်ပျူတာ Software System တည်ဆောက်ပြီး ဖြစ်စေခြင်း&lt;/li&gt;
+  &lt;li&gt;အဆိုပါ ဖိုင်များကို keyword search နှင့် category search လုပ်နိုင်သော Public Website တည်ဆောက်နိုင်ရန် အသင့်ဖြစ်ခြင်း&lt;/li&gt;
+  &lt;li&gt;နောင်တချိန် e-government/e-nation အဖြစ် အသွင်ပြောင်းရာတွင် Artificial Intelligence အခြေခံ Open-source Myanmar Document Digitization Platform တခုကို တည်ဆောက်ပြီး ဖြစ်စေခြင်း&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;who-&quot;&gt;Who ?&lt;/h1&gt;
+
+&lt;p&gt;အောက်ပါ အရည်အချင်းနှင့် ပြည့်စုံသော မည်သူမဆို လုပ်အားကူညီ ပါဝင်နိုင်ပါသည်။&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;C/C++ ကို ဖတ်တတ်/troubleshoot တတ်ရမည်။ &lt;a href=&quot;https://opensource.google/projects/tesseract&quot;&gt;Tesseract Library&lt;/a&gt; ကို အသုံးပြုတတ်လျှင် ပိုကောင်းသည်။&lt;/li&gt;
+  &lt;li&gt;Python 3 သို့မဟုတ် Java 11 ကို ကျွမ်းကျင်စွာ အသုံးပြုနိုင်ရမည်။&lt;/li&gt;
+  &lt;li&gt;Google Cloud Platform နှင့် Linux အတွေ့အကြုံရှိလျှင် ပိုကောင်းသည်။&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;how-&quot;&gt;How ?&lt;/h1&gt;
+
+&lt;p&gt;TTBTT Project အနေနှင့် randomly ရွေးချယ်ထားသော ဖိုင် ၂ သောင်းအနက် ၂ ထောင်ခန့်ကို Tesseract Configuration အမျိုးမျိုးနှင့် စမ်းသပ် OCR ပြုလုပ်ပြီး Accuracy ကို assess လုပ်မည် ဖြစ်သည်။ စာတမျက်နှာ၏ 60% ခန့်ကို မှန်ကန်စွာ identify လုပ်နိုင်လျှင် ပထမအဆင့် အောင်မြင်ပြီဟု သတ်မှတ်သည်။&lt;/p&gt;
+
+&lt;h2 id=&quot;exactly-how-to-contribute-&quot;&gt;Exactly How to Contribute ?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/Truth-Behind-the-Truth-101121208810900&quot;&gt;The Truth Behind The Truth Facebook Page&lt;/a&gt; မှာ ဆက်သွယ်ပါ။&lt;/li&gt;
+  &lt;li&gt;Admin က initial assessment လုပ်ပြီး Data File များ၊ Github Repo read/write access နှင့် Linux Box တခု ကို Provide လုပ်ပေးပါလိမ့်မယ်။&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;faqs&quot;&gt;FAQs&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Interview မှာလား&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Technical Background ကိုပဲ အကြမ်းစစ်ဆေးမှာပါ။&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ကူမယ်၊ လူသိမခံချင်ဘူး ရလား&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;သင်ဘယ်သူဆိုတာကို သင်ပြောချင်မှ ပြောရမှာ ဖြစ်ပါတယ်။ Project ရဲ့ Sensitive Nature ကြောင့် မပြောတာ ပိုကောင်းပါတယ်။ github account လဲ နာမည်ဝှက်နဲ့ ဖွင့်လာခဲ့ပါ။&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ကူညီချင်တယ်၊ Programming သင်ပေးမှာလား&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ဟင့်အင်း&lt;/p&gt;
+
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.9.3/mermaid.min.js&quot;&gt;&lt;/script&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">What ?</summary></entry><entry><title type="html">Document Categorization Labelling အတွက် လုပ်အားပေး (Volunteer) များ ခေါ်ယူခြင်း</title><link href="http://localhost:4000/jekyll/update/2021/05/02/calling_volunteer_2021_05.html" rel="alternate" type="text/html" title="Document Categorization Labelling အတွက် လုပ်အားပေး (Volunteer) များ ခေါ်ယူခြင်း" /><published>2021-05-02T02:40:30+00:00</published><updated>2021-05-02T02:40:30+00:00</updated><id>http://localhost:4000/jekyll/update/2021/05/02/calling_volunteer_2021_05</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2021/05/02/calling_volunteer_2021_05.html">&lt;h1 id=&quot;what-&quot;&gt;What ?&lt;/h1&gt;
+
+&lt;p&gt;TTBTT Project သည် &lt;a href=&quot;https://ddosecrets.com/wiki/Distributed_Denial_of_Secrets&quot;&gt;Distributed Denial of Secrets&lt;/a&gt; က Leak တခုဖြစ်သည့် &lt;a href=&quot;https://ddosecrets.com/wiki/Myanmar_Financials&quot;&gt;Myanmar Financials&lt;/a&gt; မှ မာတိကာ/စာရင်း ရေးသွင်းထားခြင်း မရှိသဖြင့် စနစ်တကျ စစ်ဆေးနိုင်ရန် ခက်ခဲနေသည့် ဖိုင် ၂ သိန်း ၄ သောင်းကျော် (၂၄၀,၀၀၀ ကျော်) ကို မာတိကာ/စာရင်း တည်‌ဆောက် ရေးသွင်းရန် ကြိုးပမ်းနေပါသည်။ ထိုလုပ်ငန်းစဉ်အတွက် လုပ်အားပေး (Volunteer) များ လိုအပ်သဖြင့် ခေါ်ယူရခြင်း ဖြစ်ပါသည်။&lt;/p&gt;
+
+&lt;h2 id=&quot;why-&quot;&gt;Why ?&lt;/h2&gt;
+
+&lt;p&gt;မာတိကာ/စာရင်း ရေးသွင်းထားသော ဖိုင်များကို Computer က ဖတ်ရှုနိုင်ပြီး ဖိုင်ထဲမှာ ပါရှိသော သတင်းအချက်အလက်များကို အလျင်အမြန် ရှာဖွေနိုင်စေပါသည်။ DDoSecrets ၏ ပထမ Leak ဖြစ်သည့် &lt;a href=&quot;https://ddosecrets.com/wiki/Myanmar_Investments&quot;&gt;Myanmar Investments&lt;/a&gt; မှ အချက်အလက်များကို &lt;a href=&quot;https://www.justiceformyanmar.org/&quot;&gt;Justice for Myanmar&lt;/a&gt; က အသေးစိတ် လေ့လာပြီး ကုမ္ပဏီ ၂၆ ခုကို စစ်တပ်နှင့် ဆက်နွယ်နေသော အဖွဲ့အစည်းများအဖြစ် စာရင်းပြုစု အစီရင်ခံနိုင်ခဲ့သလိုပင် ယခု ပို၍ကြီးမားသော Leak ကိုလဲ အသေးစိတ် လေ့လာနိုင်ရန် ပထမအဆင့်အနေနှင့် မာတိကာ/စာရင်းသွင်းရန် လိုအပ်ခြင်း ဖြစ်ပါသည်။&lt;/p&gt;
+
+&lt;p&gt;TTBTT Project ၏ ယခု အဆင့် ပြီးဆုံးလျှင် အောက်ပါ အကျိုးရလာဒ်များကို ရရှိနိုင်ပါသည်။&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Myanmar Financials Leak မှ ဖိုင် ၂၄၀,၀၀၀ ကျော်ကို စနစ်တကျ မာတိကာ/စာရင်းသွင်းပြီး ဖြစ်စေခြင်း&lt;/li&gt;
+  &lt;li&gt;နောင် အလားတူ Leak များမှ ဖိုင်များကို အလိုအလျောက် စာရင်းသွင်းနိုင်သော ကွန်ပျူတာ Software System တည်ဆောက်ပြီး ဖြစ်စေခြင်း (လူအားနှင့် ထပ်မံ စာရင်းသွင်းရန် မလိုတော့)&lt;/li&gt;
+  &lt;li&gt;အဆိုပါ ဖိုင်များကို keyword search နှင့် category search လုပ်နိုင်သော Public Website တည်ဆောက်နိုင်ရန် အသင့်ဖြစ်ခြင်း&lt;/li&gt;
+  &lt;li&gt;နောင်တချိန် e-government/e-nation အဖြစ် အသွင်ပြောင်းရာတွင် Artificial Intelligence အခြေခံ Open-source Myanmar Document Digitization Platform တခုကို တည်ဆောက်ပြီး ဖြစ်စေခြင်း&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;who-&quot;&gt;Who ?&lt;/h1&gt;
+
+&lt;p&gt;အောက်ပါ အရည်အချင်းနှင့် ပြည့်စုံသော မည်သူမဆို လုပ်အားကူညီ ပါဝင်နိုင်ပါသည်။&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;မြန်မာစာ ဖတ်တတ်ရမည် (မြန်မာလို စာရိုက်တတ်စရာ မလို)။&lt;/li&gt;
+  &lt;li&gt;Computer (Desktop/Laptop) သို့မဟုတ် Tablet (or iPad) သို့မဟုတ် Android Mobile (or iPhone) ရှိရမည်။ Screen ကြီးလျှင် ပိုကောင်းသည်။&lt;/li&gt;
+  &lt;li&gt;အင်တာနက် ရှိရမည်။&lt;/li&gt;
+  &lt;li&gt;အချိန် ၁ နာရီမှ ၂ နာရီအထိ အချိန်ပေးနိုင်ရမည် (ဆက်တိုက် ဖြစ်ရန်မလို၊ ကား/ရထားပေါ်တွင်လဲ လုပ်အားပေးနိုင်သည်။)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;how-&quot;&gt;How ?&lt;/h1&gt;
+
+&lt;p&gt;TTBTT Project အနေနှင့် ဖိုင် အားလုံး (၂ သိန်း ၄ သောင်းကျော်) ကို လူအားနှင့် မာတိကာ/စာရင်း ရေးသွင်းမည် မဟုတ်ပဲ ပထမအဆင့် ၁၂,၀၀၀ (5%) နှင့် ဒုတိယအဆင့် ၂၄,၀၀၀ (10%) ကိုသာ လူအားနှင့် စာရင်းသွင်းပြီး Artificial Intelligence နည်းပညာကို အသုံးပြု၍ ကျန် 90% ကို ကွန်ပျူတာက အလိုအလျောက် စာရင်းသွင်းတတ်အောင် ကွန်ပျူတာကို သင်ကြားပေးမည်ဖြစ်ပါသည်။&lt;/p&gt;
+
+&lt;h2 id=&quot;exactly-how-to-volunteer-&quot;&gt;Exactly How to Volunteer ?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/Truth-Behind-the-Truth-101121208810900&quot;&gt;The Truth Behind The Truth Facebook Page&lt;/a&gt; မှာ ဆက်သွယ်ပါ။&lt;/li&gt;
+  &lt;li&gt;Admin က Volunteer လုပ်ရန် ဖိုင် ၁၀၀ ပါသော Package ပို့ပေးပါလိမ့်မယ်။&lt;/li&gt;
+  &lt;li&gt;ထို Package ထဲမှာ instruction.pdf ပါရှိပါလိမ့်မယ်။ အကြမ်းအားဖြင့်
+    &lt;ol&gt;
+      &lt;li&gt;Package ထဲမှာ CSV File တခု ပါရှိပါလိမ့်မည်။ အဆိုပါ CSV File မှာ filepath, nric, family_list, photo, passport, constitution, contract, document, myanmar, english, remark ဆိုတဲ့ column တွေ ပါပါလိမ့်မယ်။&lt;/li&gt;
+      &lt;li&gt;filepath အောက်မှာ ရှိတဲ့ ဖိုင်တွေကို Package ထဲမှာ တခုချင်း ဖွင့်ကြည့်ပါ။ ပြီးရင် …
+        &lt;ul&gt;
+          &lt;li&gt;မှတ်ပုံတင် ဖြစ်ပါက nric နဲ့ photo column များမှာ အင်္ဂလိပ် ဂဏန်း 1 လို့ ရိုက်ထည့်ပါ။&lt;/li&gt;
+          &lt;li&gt;သန်းခေါင်စာရင်း (ပုံစံ ၁၀) ဖြစ်ပါက family_list column မှာ အင်္ဂလိပ် ဂဏန်း 1 လို့ ရိုက်ထည့်ပါ။&lt;/li&gt;
+          &lt;li&gt;နိုင်ငံကူးလက်မှတ် (passport) မည်သည့်နိုင်ငံမဆို ဖြစ်ပါက passport နဲ့ photo column များမှာ အင်္ဂလိပ် ဂဏန်း 1 လို့ ရိုက်ထည့်ပါ။&lt;/li&gt;
+          &lt;li&gt;ကုမ္ပဏီ သင်းဖွဲ့စည်းမျဉ်း (constitution) ဖြစ်ပါက constitution column မှာ အင်္ဂလိပ် ဂဏန်း 1 လို့ ရိုက်ထည့်ပါ။&lt;/li&gt;
+          &lt;li&gt;တင်ဒါခေါ်သည့် စာရွက်စာတမ်း သို့မဟုတ် စာချုပ် စာတမ်း ဖြစ်ပါက contract column မှာ အင်္ဂလိပ် ဂဏန်း 1 လို့ ရိုက်ထည့်ပါ။&lt;/li&gt;
+          &lt;li&gt;အခြား မည်သည့် စာရွက်စာတမ်းမဆို ဖြစ်ပါက document column မှာ အင်္ဂလိပ် ဂဏန်း 1 လို့ ရိုက်ထည့်ပါ။&lt;/li&gt;
+          &lt;li&gt;ဖိုင်အတွင်း မြန်မာဘာသာဖြင့် (ပုံနှိပ်/လက်နှိပ်စက်/လက်ရေး) စာသားများ ပါပါက myanmar column မှာ အင်္ဂလိပ် ဂဏန်း 1 လို့ ရိုက်ထည့်ပါ။&lt;/li&gt;
+          &lt;li&gt;ဖိုင်အတွင်း အင်္ဂလိပ်ဘာသာဖြင့် (ပုံနှိပ်/လက်နှိပ်စက်/လက်ရေး) စာသားများ ပါပါက english column မှာ အင်္ဂလိပ် ဂဏန်း 1 လို့ ရိုက်ထည့်ပါ။&lt;/li&gt;
+          &lt;li&gt;ဖိုင်အတွင်း မြန်မာဘာသာရော၊ အင်္ဂလိပ်ဘာသာပါ (ပုံနှိပ်/လက်နှိပ်စက်/လက်ရေး) စာသားများ ပါပါက myanmar နှင့် english column များမှာ အင်္ဂလိပ် ဂဏန်း 1 လို့ ရိုက်ထည့်ပါ။&lt;/li&gt;
+          &lt;li&gt;remark column မှာ ကိုယ်ရေးချင်တာကိုယ် မြန်မာ ယူနီကုဒ်ဖြင့် ဖြစ်စေ၊ အင်္ဂလိပ်လိုဖြစ်စေ ရေးထည့်ပေးပါ (မရေးလဲ ရပါသည်)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;PDF ဖိုင်အကုန် ဖွင့်ကြည့်ပြီး စာရင်းသွင်းပြီးပါက TTBTT ၏ Facebook Page ကို ပြန်လည် ဆက်သွယ်ပြီး CSV File ကို ပေးပို့ပေးပါ။&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;faqs&quot;&gt;FAQs&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;PDF File ကို ဘာနဲ့ ဖွင့်ရမှာလဲ။&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Adobe Acrobat Reader နဲ့ ဖြစ်ဖြစ်၊ Google Chrome နဲ့ ဖြစ်ဖြစ် ဖွင့်နိုင်ပါတယ်။&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CSV File ကို ဘာနဲ့ ဖွင့်ရမှာလဲ။&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Microsoft Excel နဲ့ ဖွင့်ပါ။&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Excel မရှိရင် ဘယ်လို လုပ်ရမလဲ။&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.openoffice.org/&quot;&gt;Apache Open Office&lt;/a&gt; နဲ့ ဖွင့်ပါ။ ဒါမှ မဟုတ်ရင် &lt;a href=&quot;https://www.google.com.au/sheets/about/&quot;&gt;Google Sheet&lt;/a&gt; နဲ့ ဖွင့်ပါ။&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Computer (Desktop/Laptop) မရှိရင် ဘယ်လို လုပ်ရမလဲ။&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tablet (iPad or Android) နဲ့ လုပ်လို့ ရပါတယ်။ Google Chrome နဲ့ PDF ဖွင့်ပြီး Google Sheet နဲ့ CSV ကို ဖွင့်လို့ ရပါတယ်။&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ဒါတွေ ဘာအတွက် လုပ်ရတာလဲ၊ နည်းနည်း ရှင်းပြပေးပါ။&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;mermaid&quot;&gt;
+graph TB
+    subgraph sample
+    D_Docs[(Documents)] --&amp;gt; P_Sampler([Sampler])
+    P_Sampler --&amp;gt;|5%| D_Docs_Sample[(Sample Documents 5%)]
+    P_Sampler --&amp;gt;|95%| D_Docs_Valid[(Unsampled Documents 95%)] 
+    end
+    subgraph label
+    E_Vol&amp;gt;Volunteer] -.-&amp;gt;|volunteers| P_Label([Labelling])
+    D_Docs_Sample --&amp;gt; P_Label --&amp;gt; D_Docs_Label[(Labelled Documents)]
+    end
+    subgraph train
+    E_CS&amp;gt;Computer Scientist] -.-&amp;gt;|creates| P_Train([Training])
+    D_Docs_Label --&amp;gt; P_Train
+    P_Train --&amp;gt; D_Model((Model))
+    end
+    subgraph predict
+    D_Model -.-&amp;gt;|used in| P_Predict([Categorizer])
+    D_Docs_Valid --&amp;gt; P_Predict
+    P_Predict --&amp;gt; D_Docs_Cat[(Categorized Documents)]
+    end
+&lt;/div&gt;
+
+&lt;p&gt;အပေါ်ပုံကို ကြည့်ပါ။ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Documents&lt;/code&gt; ဆိုတဲ့ ပုံးထဲမှာ ဖိုင် ၂ သိန်း ၄ သောင်းကျော် ရှိပါတယ်။ အဲဒီ ဖိုင်တွေအားလုံးကို မှတ်ပုံတင်၊ သန်းခေါင်စာရင်း စသဖြင့် category တွေ ခွဲချင်တာ ဖြစ်ပါတယ်။ ၂ သိန်း ၄ သောင်းဆိုတာ များလွန်းလို့ လူအားနဲ့ဆိုရင် လပေါင်းများစွာ၊ နှစ်ပေါင်းများစွာ category ခွဲဖို့ အချိန်လိုအပ်မှာ ဖြစ်ပါတယ်။&lt;/p&gt;
+
+&lt;p&gt;ဒါကြောင့် Artificial Intelligence နည်းပညာကို အသုံးပြုပြီး ကွန်ပျူတာကို category ခွဲတတ်အောင် သင်ကြားပေးမှာ ဖြစ်ပါတယ်။ ဒီလို သင်ကြားဖို့အတွက် 5% - 10% လောက်ကို လူက category ခွဲပြဖို့ လိုပါတယ်။ PDF တွေကို ဖွင့်ကြည့်ပြီး CSV ထဲမှာ စာရင်းပြုစုတာဟာ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sample Documents 5%&lt;/code&gt; ကို category ခွဲပြတာ ဖြစ်ပါတယ်။ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Labelling&lt;/code&gt; လို့ ခေါ်ပါတယ်။&lt;/p&gt;
+
+&lt;p&gt;ပုံမှာ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Labelled Document&lt;/code&gt; တွေကို &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Training&lt;/code&gt; Program က ကြည့်ရှုပြီး Model အဖြစ် ခွဲနည်းကို မှတ်သားပါတယ်။ ထိုသို့ machine learn ၍ ရလာသော Model ကို အသုံးပြုကာ ကွန်ပျူတာက &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Unsampled Documents 95%&lt;/code&gt; နှင့် အခြား Document အသစ်တွေကို အလိုအလျောက် အမျိုးအမည်ခွဲ (Predict) နိုင်ပါသည်။&lt;/p&gt;
+
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.9.3/mermaid.min.js&quot;&gt;&lt;/script&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">What ?</summary></entry></feed>

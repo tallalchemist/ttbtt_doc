@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Technicals | The Truth Behind The Truth (TTBTT)</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Technicals" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The Truth Behind The Truth is a Document Processing System that aims to rebuild index and structure behind a bucket of document scan images (mostly in Myanmar)." />
+<meta property="og:description" content="The Truth Behind The Truth is a Document Processing System that aims to rebuild index and structure behind a bucket of document scan images (mostly in Myanmar)." />
+<link rel="canonical" href="http://localhost:4000/technicals/" />
+<meta property="og:url" content="http://localhost:4000/technicals/" />
+<meta property="og:site_name" content="The Truth Behind The Truth (TTBTT)" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Technicals" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"http://localhost:4000/technicals/","headline":"Technicals","description":"The Truth Behind The Truth is a Document Processing System that aims to rebuild index and structure behind a bucket of document scan images (mostly in Myanmar).","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="The Truth Behind The Truth (TTBTT)" />
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">The Truth Behind The Truth (TTBTT)</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/background/">Background</a><a class="page-link" href="/technicals/">Technicals</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Technicals</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="overview">Overview</h1>
+
+<div class="mermaid">
+graph TD  
+    subgraph Categorization 
+    D_Docs[(Documents)] --&gt; P_Cat([Categorize])
+    P_Cat --&gt; D_Cat_Docs[(Categorized Documents)]
+    end
+    subgraph Optical Character Recognization 
+    D_Cat_Docs --&gt; P_OCR([Optical Character Recognizer])
+    P_OCR --&gt; D_Text[Categorized Documents in Text]
+    end
+    subgraph Indexing and Search Engine
+    D_Text --&gt; P_Indexer([Indexer])
+    D_Cat_Docs --&gt; P_Indexer
+    P_Indexer --&gt; D_Index[(Index)]
+    E_User&gt;User] ==&gt;|Query| P_Search([Search Engine])
+    P_Search ==&gt;|Results| E_User
+    D_Docs &amp; D_Cat_Docs &amp; D_Index --&gt; P_Search
+    end
+</div>
+
+<p>အထက် ဖော်ပြပါ ပုံတွင် TTBTT ၏ အဓိက နယ်ပယ် ၃ ရပ်ကို တွေ့မြင်နိုင်သည်။ ၄င်းတို့မှာ</p>
+
+<ul>
+  <li>Categorization</li>
+  <li>Optical Character Recognization နှင့်</li>
+  <li>Indexing and Search Engine တို့ ဖြစ်ကြသည်။</li>
+</ul>
+
+<p>ထို့အပြင် TTBTT ၏ အခြား အရေးပါသော နယ်ပယ်တခုမှာ အထက်ပါ နယ်ပယ် ၃ ခုကို Dataset အသစ်တခုအတွက် လျင်မြန်စွာ လုပ်ဆောင်ပေးနိုင်ရန်လဲ ဖြစ်သည်။</p>
+
+<h1 id="task-lists">Task Lists</h1>
+
+<ol>
+  <li>DDoSecrets မှ Myanmar Financials Leak ကို Singapore Bucket သို့ Upload ရန် – Done</li>
+  <li>DDoSecrets မှ Myanmar Financials Leak ကို Sydney Bucket သို့ Upload ရန် – Done</li>
+  <li>DDoSecrets မှ Myanmar Investment Leak ကို Sydney Bucket သို့ Upload ရန် – WIP</li>
+  <li>DDoSecrets မှ Myanmar Investment Leak ကို Singapore Bucket သို့ Copy ကူးရန် – Pending Sydney Upload (3)</li>
+  <li>Myanmar Financials Leak ၏ 5% ကို Multi-Region Bucket သို့ Sample ယူရန် – WIP</li>
+  <li>Myanmar Financials Leak ၏ Sample များကို Label လုပ်ရန် Process ပြင်ဆင်ရန် – WIP</li>
+  <li>Myanmar Financials Leak ၏ Sample များကို Crowd Source နည်းနှင့် Label လုပ်ရန် – Pending Sampling (5) and Labelling Process (6)</li>
+</ol>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.9.3/mermaid.min.js"></script>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>The Truth Behind The Truth is a Document Processing System that aims to rebuild index and  structure behind a bucket of document scan images (mostly in Myanmar).</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
