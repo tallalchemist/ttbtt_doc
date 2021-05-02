@@ -1,11 +1,18 @@
-# The Truth Behind The Truth (TTBTT)
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+
+The Truth Behind The Truth is a Document Processing System that aims to rebuild index and structure behind a bucket of document scan images (mostly in Myanmar).
 
 The Truth Behind The Truth သည် မြန်မာ ဘာသာနှင့် ရေးသားထားသည့် စနစ်တကျ မာတိကာ/စာရင်းသွင်းထားခြင်း မရှိသည့် စာရွက်စာတမ်းများ၏ Scanned Image သို့မဟုတ် Photo Image များကို မာတိကာ/စာရင်း အလိုအလျောက် သွင်းနိုင်အောင် တွက်ချက်ပေးနိုင်သည့် Document Processing System 
 တခု ဖြစ်သည်။
 
-## Background
+# Background
 
-### DDoSecrets Leaks
+## DDoSecrets Leaks
 
 [Distributed Denial of Secrets](https://ddosecrets.com/wiki/Distributed_Denial_of_Secrets) မှ မြန်မာနိုင်ငံနှင့် စပ်လျဉ်း၍ [Myanmar Financials](https://ddosecrets.com/wiki/Myanmar_Financials) နှင့် [Myanmar Investments](https://ddosecrets.com/wiki/Myanmar_Investments) leak ၂ ခု ထုတ်ဖော်ခဲ့ပါသည်။ 
 
@@ -33,11 +40,11 @@ The Truth Behind The Truth သည် မြန်မာ ဘာသာနှင့
 
 ပါဝင်ပြီး Google အနေနှင့် သမ္မတ Biden ၏ Executive Order of 11 February 2021 concerning Myanmar နှင့် ညိစွန်းသည့် လူပုဂ္ဂိုလ်များနှင့် ကုမ္ပဏီများ၏ Gmail နှင့် Blog များကို ပိတ်သိမ်းစေခဲ့ပါသည်။ 
 
-### Difficulties to Manually Analyze the Leaks
+## Difficulties to Manually Analyze the Leaks
 
 အဆိုပါ Leak ၂ ခုလုံးတွင် စနစ်တကျ မာတိကာ/စာရင်းသွင်းထားခြင်း မရှိသော ဖိုင်ပေါင်း ထောင်သောင်းချီ (အထူးသဖြင့် ဒုတိယ leak တွင် မာတိကာ/စာရင်းသွင်းထားခြင်း မရှိသော ဖိုင်ပေါင်း ၂ သိန်းကျော်) ပါရှိပြီး လူအားဖြင့် (manually) စစ်ဆေးနိုင်ရန် အခက်အခဲ ရှိပါသည်။ 
 
-### Evolving Nature of Documents
+## Evolving Nature of Documents
 
 နိုင်ငံတကာမှ Targeted Sanctions စီးပွားရေး ပိတ်ဆို့မှုများ ထိရောက်သည်နှင့်အမျှ ပိတ်ဆို့ခံ ပစ်မှတ်များအနေနှင့် ယခင်က လူအများ သိရှိထားခြင်း မရှိသော Shell Company များ၊ အမည်ခံ ကုမ္ပဏီ အသစ်များကို အသုံးပြုကာ စီးပွားရေး ပိတ်ဆို့မှုများကို ကျော်လွှားရန် ကြိုးစားလာသည်ကို တွေ့ရှိရပါသည်။ 
 
@@ -47,7 +54,7 @@ The Truth Behind The Truth သည် မြန်မာ ဘာသာနှင့
 
 သို့မှသာ Justice for Myanmar နှင့် အခြား အဖွဲ့အစည်းများ အတူတကွ Leaked document များကို အမြန် လေ့လာဆန်းစစ်နိုင်ပြီး စီးပွားရေး ပိတ်ဆို့မှုများနှင့် ညိစွန်းသည့် လူပုဂ္ဂိုလ်သစ်/အဖွဲ့အစည်းသစ်များ၏ ဆက်နွယ်မှုများကို အချိန်နှင့် တပြေးညီ ထုတ်ဖော်နိုင်မည် ဖြစ်ပါသည်။ 
 
-## Objectives
+# Objectives
 
 The Truth Behind The Truth (TTBTT) ၏ ရည်မှန်းချက်များမှာ အောက်ပါအတိုင်း ဖြစ်ပါသည်။ 
 
@@ -66,10 +73,11 @@ The Truth Behind The Truth (TTBTT) ၏ ရည်မှန်းချက်မ�
   
 * **Steamlining of the above Processes for Future Leaks** အနာဂတ်မှ Leak အသစ်များအတွက် အထက်ပါ လုပ်ငန်းစဉ်များကို အလိုအလျောက်နီးပါး လျင်မြန်စွာ လုပ်ဆောင်နိုင်မည့် Computer Program, System နှင့် Process များကို တည်ဆောက်ရန်
 
-## Technical Overview
+# Technical Overview
 
-```mermaid
-graph TD  
+{% raw %}
+<div class="mermaid">
+graph TD 
     subgraph Categorization 
     D_Docs[(Documents)] --> P_Cat([Categorize])
     P_Cat --> D_Cat_Docs[(Categorized Documents)]
@@ -86,8 +94,8 @@ graph TD
     P_Search ==>|Results| E_User
     D_Docs & D_Cat_Docs & D_Index --> P_Search
     end
-```
-
+</div>
+{% endraw %}
 
 <details>
     <summary>Detailed Technical Notes</summary>
@@ -102,7 +110,7 @@ graph TD
 
 </details>
 
-## Task Lists
+# Task Lists
 
 <details>
     <summary>Detailed Task List</summary>
@@ -115,7 +123,7 @@ graph TD
 7. Myanmar Financials Leak ၏ Sample များကို Crowd Source နည်းနှင့် Label လုပ်ရန် -- Pending Sampling (5) and Labelling Process (6) 
 </details>
 
-### Myanmar Financials Leak ၏ Sample များကို Label လုပ်ရန် 
+## Myanmar Financials Leak ၏ Sample များကို Label လုပ်ရန် 
 
 1. TTBTT ၏ Facebook Page မှာ Message ထားခဲ့ပါ။ Admin တယောက်ယောက်က ဆက်သွယ်ပါလိမ့်မယ်။ 
 2. ပေးလာတဲ့ Google Drive Link ကို ဖွင့်ကြည့်ပါ။ PDF ဖိုင်များနဲ့ CSV (Excel) ဖိုင်တခုကို တွေ့ရပါလိမ့်မယ်။ PDF ဖိုင်တွေရဲ့ အမည်ကို CSV ဖိုင်ထဲက ပထမ Column (filepath) မှာ တွေ့ရပါလိမ့်မယ်။ တခြား Column တွေက nric, family_list, photo, passport, constitution, contract, document, myanmar, english, remark
@@ -144,7 +152,8 @@ Computer (Desktop/Laptop) မရှိရင် ဘယ်လို လုပ်�
 
 **What am I doing ?**
 
-```mermaid
+{% raw %}
+<div class="mermaid">
 graph TB
     subgraph sample
     D_Docs[(Documents)] --> P_Sampler([Sampler])
@@ -165,7 +174,8 @@ graph TB
     D_Docs_Valid --> P_Predict
     P_Predict --> D_Docs_Cat[(Categorized Documents)]
     end
- ```   
+</div>
+{% endraw %}
 
 အထက်တွင် ဖော်ပြခဲ့သည့်အတိုင်း ဖိုင် ၂ သိန်းကျော်ကို လူအားဖြင့် အမျိုးအစား ခွဲခြားရန် မဖြစ်နိုင်ပါ။ 
 
@@ -175,20 +185,22 @@ Artificial Intelligence နည်းပညာဖြင့် ကွန်ပျ�
 
 5% သော ဖိုင်များကို Labelling (အမျိုးအမည် ခွဲပြပေးပြီးလျှင်) ပုံတွင် ပြထားသည့်အတိုင်း ကွန်ပျူတာက ထို Model ကို အသုံးပြုကာ ကျန် 95% သော ဖိုင်များကို အလိုအလျောက် အမျိုးအစား ခွဲခြားနိုင်မည် ဖြစ်သည်။
 
-## FAQs
+# FAQs
 
-### TTBTT ကို ဘယ်သူတွေ တည်ဆောက်နေကြတာလဲ။ 
+## TTBTT ကို ဘယ်သူတွေ တည်ဆောက်နေကြတာလဲ။ 
 
 > နိုင်ငံတကာမှ ကွန်ပျူတာ ပညာရှင်များ တည်ဆောက်နေကြတာ ဖြစ်ပါတယ်။ 
 
-### TTBTT ကို လှူလို့ ရသလား
+## TTBTT ကို လှူလို့ ရသလား
 
 > TTBTT ၏ အဓိက Compute Resource များကို Google Cloud Platform မှ ဝယ်ယူအသုံးပြုပြီး Project ၏ ရည်မှန်းချက်များကို အထမြောက်ရန် ထောက်ပံ့ထားသည့် အလှူရှင် ရှိပြီးဖြစ်သည်။  Electricity နှင့် Client Resource များကို Volunteer Contributor များက BYOD (Bring Your Own Device) စနစ်နှင့် ပါဝင် အားဖြည့်ကြပါသည်။ 
 > 
 > သို့ဖြစ်၍ TTBTT က အလှူမခံပါ။ ထို့ကြောင့် လှူလို့ မရပါ။
 
-### ဒါပေမဲ့ တတပ်တအား ပါဝင် အားဖြည့်ချင်ပါတယ်။ ဘယ် လုပ်ပေးရမလဲ။ 
+## ဒါပေမဲ့ တတပ်တအား ပါဝင် အားဖြည့်ချင်ပါတယ်။ ဘယ် လုပ်ပေးရမလဲ။ 
 
 > TTBTT မှ Categorization of Documents အဆင့်တွင် Computer ကို အမျိုးအမည် ခွဲခြားတတ်အောင် Artificial Intelligence (AI) နည်းပညာများနှင့် သင်ကြားပေးရန် နမူနာ အမျိုးအမည်ခွဲခြားထားသည့် ဖိုင်များ လိုအပ်လျှက်ရှိသည်။ ထို့ကြောင့် မြန်မာစာ ဖတ်တတ်သူ မည်သူမဆို TTBTT ၏ Facebook Page သို့ ဆက်သွယ်၍ ဖိုင် အနည်းငယ်ကို manual label လုပ်ပေးနိုင်ပါသည်။
 
 > အသေးစိတ်ကို [Myanmar Financials Leak ၏ Sample များကို Label လုပ်ရန်](#-Myanmar-Financials-Leak-၏-Sample-များကို-Label-လုပ်ရန် ) မှာ ကြည့်ပါ။
+
+<script src="{{ "assets/mermaid-8.9.2/mermaid.min.js" | relative_url }}"></script>
